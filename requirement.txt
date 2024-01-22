@@ -1,0 +1,7 @@
+torch==1.8.2
+torchvision==0.9.2
+addict
+imageio
+imdb
+numpy
+pyyaml
