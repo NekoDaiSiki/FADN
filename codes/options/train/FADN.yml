@@ -73,17 +73,13 @@ train:
 
   val_freq: !!float 2000 #val频率
 
-  lambda_fit_forw: 16.
   lambda_rec_back: 1
-  lambda_ce_forw: 1
-  lambda_rec_back_grid: 1 # 额外的超参 grid
-  lambda_rec_back_SSIM: 1 # SSIM的超参
 
-  lamda_loss_z0 : 0.025
-  lamda_loss_z1 : 0.1
+  lamda_loss_z0 : 0.5
+  lamda_loss_z1 : 0.5
 
-  lamda_loss_h0 : 10
-  lamda_loss_h1 : 10
+  lamda_loss_h0 : 0.1
+  lamda_loss_h1 : 0.1
 
   weight_decay_G: !!float 1e-8
   gradient_clipping: 10
